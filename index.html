@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>DailyBudget – Legal</title>
+  <meta name="description" content="DailyBudget legal pages: Privacy Policy, Terms, and Specified Commercial Transactions Act disclosure." />
+  <style>
+    :root { --fg:#1b1f23; --muted:#6b7280; --line:#e6e8eb; --bg:#fafaf7; --card:#fff; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,"Noto Sans JP","Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif;color:var(--fg);background:var(--bg)}
+    main{max-width:920px;margin:0 auto;padding:28px 18px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px}
+    h1{font-size:26px;margin:0 0 6px}
+    p{line-height:1.7;margin:10px 0;color:var(--fg)}
+    .muted{color:var(--muted)}
+    ul{padding-left:18px;line-height:1.8}
+    a{color:inherit}
+    .grid{display:grid;gap:12px;grid-template-columns:1fr}
+    @media (min-width:760px){.grid{grid-template-columns:1fr 1fr}}
+    .link{display:block;padding:14px 14px;border:1px solid var(--line);border-radius:12px;background:#fff;text-decoration:none}
+    .link:hover{background:#f7f7f4}
+    .link b{display:block;margin-bottom:4px}
+    footer{margin-top:18px;color:var(--muted);font-size:13px}
+    hr{border:none;border-top:1px solid var(--line);margin:18px 0}
+  </style>
+</head>
+<body>
+  <main>
+    <div class="card">
+      <h1>DailyBudget – Legal</h1>
+      <p class="muted">This page provides legal documents for the DailyBudget app.</p>
+
+      <hr />
+
+      <div class="grid">
+        <a class="link" href="./privacy.html">
+          <b>Privacy Policy</b>
+          <span class="muted">個人情報・データの取扱いについて</span>
+        </a>
+        <a class="link" href="./terms.html">
+          <b>Terms of Service</b>
+          <span class="muted">利用規約</span>
+        </a>
+        <a class="link" href="./tokushouhou.html">
+          <b>特定商取引法に基づく表記</b>
+          <span class="muted">有料機能・課金に関する表示</span>
+        </a>
+      </div>
+
+      <hr />
+
+      <p class="muted">
+        Last updated: <span>[[YYYY-MM-DD]]</span><br />
+        Contact: <a href="mailto:[[CONTACT_EMAIL]]">[[CONTACT_EMAIL]]</a>
+      </p>
+    </div>
+
+    <footer>
+      © <span>[[YEAR]]</span> [[BUSINESS_NAME]]. All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
